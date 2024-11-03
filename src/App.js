@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Header";
+import Form from "./Form";
+import Weather from "./Weather";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <Header />
+      <Form />
+      <Weather />
+      <footer>
+        This project was coded by{" "}
+        <a href="" target="_blank" rel="noopener noreferrer">
+          Shaghayegh K.
         </a>
-      </header>
+        , is open-sourced on{" "}
+        <a href="" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>{" "}
+        and hosted on{" "}
+        <a href="" target="_blank" rel="noopener noreferrer">
+          Netlify
+        </a>
+      </footer>
     </div>
   );
 }
