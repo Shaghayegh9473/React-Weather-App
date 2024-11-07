@@ -28,7 +28,11 @@ function App() {
           GitHub
         </a>{" "}
         and hosted on{" "}
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://mellifluous-zabaione-a90532.netlify.app/projects"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Netlify
         </a>
       </footer>
