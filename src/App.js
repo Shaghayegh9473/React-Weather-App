@@ -12,11 +12,19 @@ function App() {
       <Weather />
       <footer>
         This project was coded by{" "}
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://mellifluous-zabaione-a90532.netlify.app/projects"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Shaghayegh K.
         </a>
         , is open-sourced on{" "}
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/Shaghayegh9473/React-Weather-App"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           GitHub
         </a>{" "}
         and hosted on{" "}
