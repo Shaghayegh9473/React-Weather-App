@@ -29,7 +29,7 @@ function App() {
         </a>{" "}
         and hosted on{" "}
         <a
-          href="https://mellifluous-zabaione-a90532.netlify.app/projects"
+          href="https://aesthetic-rabanadas-bf5227.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
