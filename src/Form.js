@@ -30,7 +30,7 @@ export default function Form() {
   // }
 
   return (
-    <form>
+    <form className="mb-2">
       <input
         type="search"
         placeholder="Enter a city..."

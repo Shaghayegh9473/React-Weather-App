@@ -11,6 +11,11 @@ body {
   background-color: var(--background-color);
 }
 
+form {
+  border-bottom: 1px solid #f8f6fe;
+  padding: 0 0 30px 0;
+}
+
 main {
   padding: 30px 0;
   padding-left: 5px;
@@ -34,13 +39,13 @@ footer {
   color: var(--lightGray-color);
 }
 
-a {
+footer a {
   color: var(--shecodes-color);
 }
 
 .App {
   background-color: #fff;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #fff;
   display: block;
   margin: 45px auto;
@@ -60,6 +65,7 @@ a {
   background-color: var(--background-color);
   border: none;
   border-radius: 6px;
+  margin-right: 8px;
   width: 80%;
   font-size: 16px;
   padding: 15px 20px;
@@ -92,8 +98,9 @@ a {
 }
 
 .icon {
-  width: 88px;
+  width: 30px;
   height: 88px;
+  margin-left: 240px;
 }
 
 .currentTemp {

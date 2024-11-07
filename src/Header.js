@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Header() {
   return (
-    <div>
+    <div className="mb-4">
       <a
         href="https://www.shecodes.io"
         target="_blank"
